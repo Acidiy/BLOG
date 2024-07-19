@@ -1,10 +1,10 @@
-export const Image = ({image , type = true}) => {
+export const Image = ({image}) => {
 
     let styles = {
-        slider:" w-[640px] md:w-[768px] lg:w-[1024px] rounded-xl absolute -z-10",
-        trending:"w-72 h-80 rounded-xl absolute -z-10"
+        slider:" w-full rounded-xl",
+        trending:"w-full h-full rounded-xl"
     }
 
 
-    return <img src={image} className={type ? styles.trending : styles.slider}/>
+    return <img src={image} className={styles.trending}/>
 }

@@ -1,15 +1,13 @@
-export const Headline = ({index, card}) => {
-
-    let content = ['alzheimer confirmed', 'eagle shot']
+export const Headline = ({card, content}) => {
 
     let styles_type = {
-        trending_card:'w-56 h-[76px] text-wrap text-white',
-        post_card:'w-80 h-32 text-wrap text-2xl'
+        trending_card:'w-full h-[76px] text-wrap text-white mb-4',
+        post_card:'w-full h-fit text-wrap max-sm:text-2xl sm:text-sm md:text-md lg:text-lg xl:text-2xl'
     }
 
     return (
         <div className={card ? styles_type.trending_card : styles_type.post_card}>
-            {content[index]}
+            {content}
         </div>
     )
 }

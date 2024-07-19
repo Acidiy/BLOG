@@ -2,7 +2,7 @@ import { Image } from "./image"
 import { Tag } from "./tag"
 import { Headline } from "./headline"
 
-export const Card = ({ image_index, tag_index, tag_type, headline_type}) => {
+export const Card = ({ image_index, topics, tag_type, headline_type, content }) => {
 
 
     let data = [
@@ -15,11 +15,13 @@ export const Card = ({ image_index, tag_index, tag_type, headline_type}) => {
 
     return (
         <div className=" w-72 h-80 bg-gradient-to-b from-[#00000090] to-black rounded-xl relative flex flex-col justify-end">
-            <Image image={data[image_index]} />
+            <div className="w-72 h-80 absolute -z-10">
+                <Image image={data[image_index]} />
+            </div>
             <div className="w-56 h-32 mx-8 flex flex-col justify-between z-10">
-                <Tag index={tag_index = 0} type={tag_type} />
+                <Tag topics={topics} type={tag_type} />
 
-                <Headline index={0} card={headline_type} />
+                <Headline card={headline_type} content={content} />
             </div>
         </div>)
 }
