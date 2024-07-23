@@ -23,5 +23,18 @@ export let DATA = {
     ],
     date: 'August 20, 2022',
     tags: { politics: 'politics', tech: 'technology', cars: 'automotive', travel: 'travel' },
-    headline: 'he Impact of Technology on the Workplace: How Technology is Changing'
+    headline: 'he Impact of Technology on the Workplace: How Technology is Changing',
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam',
+    address: '1328 Oak Ridge Drive, Saint Louis, Missour',
+    contact: {
+        number: '313-332-8662 ',
+        email: 'info@email.com'
+    },
+    footer:{
+        about:{
+            content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam',
+            email:' info@jstemplate.net',
+            Phone:'880 123 456 789'
+        }
+    }
 }
