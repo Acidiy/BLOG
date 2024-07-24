@@ -1,8 +1,7 @@
 import { Post } from "./Post"
-import { DATA } from "./DATA";
 import { useState } from "react";
 
-export let AllPosts = () => {
+export let AllPosts = ({image, tag, headline, date}) => {
     let [page, setPage] = useState(1);
     let [lessen, setLessen] = useState(false)
 
@@ -21,10 +20,10 @@ export let AllPosts = () => {
             <div className="text-2xl font-bold">All Blog Post</div>
             <div className="w-[400px] sm:w-[500px] md:w-[880px] lg:w-[1220px] xl:[1400px] mx-auto">
                 <div className="w-full grid max-sm:grid-cols-1 max-md:grid-cols-2 grid-cols-3  gap-8">
-                    {DATA.post_image_data.slice(0,3*page).map((element) => { return <Post image={element} topics={DATA.tags.travel} tag_type={false} content={DATA.headline} date={DATA.date} /> })}
+                    {image.slice(0,3*page).map((element) => { return <Post image={element} topics={tag.travel} tag_type={false} content={headline} date={date} /> })}
                 </div>
             </div>
-            {lessen ? <button onClick={showless} className="w-32 h-12 bg-red-400 mx-auto"></button> : <button onClick={load} className="w-32 h-12 bg-black mx-auto"></button>}
+            {lessen ? <button onClick={showless} className="w-32 h-12 bg-red-400 rounded-xl mx-auto">Show Less</button> : <button onClick={load} className="w-32 h-12 bg-emerald-700 rounded-xl mx-auto text-white">Load More</button>}
         </div>
     )
 }

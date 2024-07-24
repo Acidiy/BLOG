@@ -23,18 +23,39 @@ export let DATA = {
     ],
     date: 'August 20, 2022',
     tags: { politics: 'politics', tech: 'technology', cars: 'automotive', travel: 'travel' },
-    headline: 'he Impact of Technology on the Workplace: How Technology is Changing',
+    headline: 'The Impact of Technology on the Workplace: How Technology is Changing',
     content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam',
     address: '1328 Oak Ridge Drive, Saint Louis, Missour',
     contact: {
         number: '313-332-8662 ',
         email: 'info@email.com'
     },
-    footer:{
-        about:{
-            content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam',
-            email:' info@jstemplate.net',
-            Phone:'880 123 456 789'
+    footer: {
+        about: {
+            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam',
+            email: ' info@jstemplate.net',
+            Phone: '880 123 456 789'
+        }
+    },
+    single: {
+        image: "https://s3-alpha-sig.figma.com/img/eb1f/38cd/a6a8e0df2280c787cafc780464b002fe?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ql8Xit3eajIljJZlW2rIp1sDUbpnBnYLOW1znIH8GbFKabHZ9IlVOSxuPhttewXH86BEFtadoO~jxSamYEJXDjyyWnprbkOpQ7c3clrEx~BvjVPr-lbLC5RgpOWBKFpUaj~xwN005aFNkVs8MbcLYRr2KJn7qCAXwt8TJhzEEyErWcQhVZys7rNdfQCbTSa5CwjvTTA~w-r7hXL8B4yqPAhHuXoM7FbPg2aJ27wZIZ6Qah3Gg~9i9adBJE8zKMRbDxIGiQZXI1cm14ItIHgOQGZMVPziQLzJKqvBBoW2rqla5V4OW5nIWMD-y1uRJMZ5gfQ1Q-UjFmg9B74hUG7~-w__",
+        headline: "The Impact of Technology on the Workplace: How Technology is Changing",
+        author: "Tracey Wilson",
+        content:{
+            s1: {
+                p1: "Traveling is an enriching experience that opens up new horizons, exposes us to different cultures, and creates memories that last a lifetime. However, traveling can also be stressful and overwhelming, especially if you don't plan and prepare adequately. In this blog article, we'll explore tips and tricks for a memorable journey and how to make the most of your travels.",
+                p2: "One of the most rewarding aspects of traveling is immersing yourself in the local culture and customs. This includes trying local cuisine, attending cultural events and festivals, and interacting with locals. Learning a few phrases in the local language can also go a long way in making connections and showing respect.",
+            },
+            s2: {
+                title: "Research Your Destination",
+                p1: "Before embarking on your journey, take the time to research your destination. This includes understanding the local culture, customs, and laws, as well as identifying top attractions, restaurants, and accommodations. Doing so will help you navigate your destination with confidence and avoid any cultural faux pas.",
+                p2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In hendrerit gravida rutrum quisque non tellus orci ac auctor. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet. Aenean euismod elementum nisi quis eleifend quam adipiscing vitae. Viverra adipiscing at in tellus."
+            },
+            s3: {
+                title: "Plan Your Itinerary",
+                p1: "While it's essential to leave room for spontaneity and unexpected adventures, having a rough itinerary can help you make the most of your time and budget. Identify the must-see sights and experiences and prioritize them according to your interests and preferences. This will help you avoid overscheduling and ensure that you have time to relax and enjoy your journey.",
+                p2: "Vitae sapien pellentesque habitant morbi tristique. Luctus venenatis lectus magna fringilla. Nec ullamcorper sit amet risus nullam eget felis. Tincidunt arcu non sodales neque sodales ut etiam sit amet"
+            }
         }
     }
 }

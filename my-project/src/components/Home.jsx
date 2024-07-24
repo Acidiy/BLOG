@@ -3,7 +3,7 @@ import { Slider } from "./Slider";
 import { AllPosts } from "./AllPost";
 import { DATA } from "./DATA";
 
-export let Home = () => {
+export let Home = (Pimage, Ptag, Pheadline, Pdate) => {
     return (
 
         <div className="flex flex-col gap-24 my-24">
@@ -26,7 +26,7 @@ export let Home = () => {
 
 
 
-            <AllPosts/>
+            <AllPosts image={Pimage} tag={Ptag} headline={Pheadline} date={Pdate}/>
 
 
 
