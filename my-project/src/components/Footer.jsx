@@ -21,6 +21,7 @@ export let Footer = () => {
                         <Link to="/"><button className="size-fit font-thin">HOME</button></Link>
                         <Link to="/Posts"><button className="size-fit font-thin">All Blog Post</button></Link>
                         <Link to="/Contact"><button className="size-fit font-thin">Contact</button></Link>
+                        <Link to="/New"><button className="size-fit font-thin">useEffect</button></Link>
                     </div>
                 </div>
 
